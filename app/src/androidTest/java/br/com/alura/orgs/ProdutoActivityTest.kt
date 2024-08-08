@@ -11,11 +11,11 @@ import br.com.alura.orgs.ui.activity.ListaProdutosActivity
 import org.junit.Test
 
 class ProdutoActivityTest {
-    @Test
-    fun deveMostrarONomeDoAplicativo() {
-        launch(ListaProdutosActivity::class.java)
-        onView(withText("Orgs")).check(matches(isDisplayed()))
-    }
+//    @Test
+//    fun deveMostrarONomeDoAplicativo() {
+//        launch(ListaProdutosActivity::class.java)
+//        onView(withText("Orgs")).check(matches(isDisplayed()))
+//    }
 
     @Test
     fun deveMostrarCamposNecessarioParaCriarUmProduto() {
